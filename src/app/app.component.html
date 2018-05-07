@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<hr>
+<div class="container">
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Welcome to {{title}}!!</a>
+        </div>
+        <div routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+        <ul class="nav navbar-nav">
+           
+          <li >
+            <a routerLink="/">Home</a>
+          </li>
+          <li>
+            <a routerLink="create" >Add Student</a>
+          </li>
+
+
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+
+
+    <router-outlet></router-outlet>
+  </div>
